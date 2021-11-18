@@ -31,7 +31,7 @@ public class Puntos_Reciclaje_Act extends AppCompatActivity {
         ibTelefono.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intentCall = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:956851211"));
+                Intent intentCall = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:956851444"));
                 startActivity(intentCall);
             }
         });
