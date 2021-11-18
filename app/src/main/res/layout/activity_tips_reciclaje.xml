@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    tools:context=".Tips_Reciclaje_Act">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="362dp"
+        android:layout_height="686dp"
+        android:layout_marginTop="28dp"
+        app:cardCornerRadius="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.326"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="339dp"
+            android:layout_height="673dp">
+
+            <LinearLayout
+                android:layout_width="334dp"
+                android:layout_height="485dp"
+                android:layout_marginTop="48dp"
+                android:orientation="vertical"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView16">
+
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp"
+                    android:text="La información sobre reciclaje disponible en etiquetas y envases es muy útil en los plásticos."
+                    android:textColor="#FF5722" />
+
+                <TextView
+                    android:id="@+id/textView18"
+                    android:layout_width="match_parent"
+                    android:layout_height="67dp"
+                    android:text="En casa tratar de disponer de recipientes independientes para cada tipo de residuos."
+                    android:textColor="#2196F3" />
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="match_parent"
+                    android:layout_height="72dp"
+                    android:text="Los residuos especiales como aparatos electrónicos o muebles se depositan en los puntos limpios."
+                    android:textColor="#20E428" />
+
+                <TextView
+                    android:id="@+id/textView20"
+                    android:layout_width="match_parent"
+                    android:layout_height="73dp"
+                    android:text="El aceite de cocina debe depositarse en contenedores especiales y nunca tirarse por el inodoro o por la pila de la cocina."
+                    android:textColor="#C216DF" />
+
+                <TextView
+                    android:id="@+id/textView21"
+                    android:layout_width="match_parent"
+                    android:layout_height="74dp"
+                    android:text="Adoptar hábitos para reutilizar materiales y fomentar el consumo responsable van de la mano del reciclaje."
+                    android:textColor="#DA2214" />
+
+                <TextView
+                    android:id="@+id/textView22"
+                    android:layout_width="match_parent"
+                    android:layout_height="72dp"
+                    android:text="Localiza la zona de contenedores más cercana a tu domicilio."
+                    android:textColor="#13D5C2" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="299dp"
+                android:layout_height="42dp"
+                android:layout_marginTop="16dp"
+                android:text="Recomendaciones para el correcto reciclaje."
+                android:textColor="#1D1D20"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>
