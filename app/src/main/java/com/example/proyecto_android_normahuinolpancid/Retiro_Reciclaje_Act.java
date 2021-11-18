@@ -49,7 +49,7 @@ public class Retiro_Reciclaje_Act extends AppCompatActivity {
         }
         else
         {
-            objTVMensaje.setText("Por favor llene todos los campos");
+            objTVMensaje.setText("Por favor nodejar vacíos los campos");
         }
 
     }
