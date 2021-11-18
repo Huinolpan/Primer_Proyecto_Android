@@ -2,7 +2,7 @@ package Objetos;
 
 public class Productos 
 {
-    private String[] productos = {"Latas","Vidrio","Papel","Cartones","Tetra-Pack","Plasticos","Aceite"};
+    private String[] productos = {"Latas","Vidrio","Papel","Cartones","Tetra-Pack","Plasticos","Aceite","Tela"};
     private int id;
     
     public Productos()
