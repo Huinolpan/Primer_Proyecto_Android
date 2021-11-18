@@ -12,7 +12,7 @@ public class Administrador
     public Administrador()
     {
         //Inicializo variables.
-        wirrinUy = "Norma";
+        wirrinUy = "NORMA";
         elkatuchiNemul = "123";
     }
 
