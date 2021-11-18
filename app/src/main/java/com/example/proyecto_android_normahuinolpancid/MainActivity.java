@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity
             case "Norma":
                 if(elkatuchiNemul.equals("123"))
                 {
-                    werkun.setText("Ingreso  exitoso");
+                    werkun.setText("Ingreso super exitoso");
 
                     Intent i = new Intent(this,servicios_proyecto.class);
                     startActivity(i);
